@@ -8,7 +8,9 @@ git config --global user.email "<seu_email>"
 
 git init: Ele inicia o arquivo ".git/" para controlar a pasta. (toda pasta com "." na frente do ome eh uma pasta oculta)
 
-git status: responsanvel por valida os arquivos modificados dentro do projeto. (identifica o arquivo novo em vermelho)
+git status: responsanvel por valida os arquivos modificados dentro do projeto. 
+Em vermelho ele mostra os arquivos modificados. 
+Em verde mostra os arquivos que foram adicionados pelo "git add"
 
 git add: responsável por colocar o arquivo modificado em uma area segura (depois de digitar o arquivo identificado pelo git status em vermelho, o git add adiciona o arquivo e ao darmos GIT STATUS novamente o arquivo já aparece em verde.)
 
