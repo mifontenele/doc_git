@@ -24,6 +24,10 @@ git merge <nome_da_branch>: Ele adiciona a branch atual no contéudo de outra br
 
 gitk: mostra tudo que foi feito
 
-gitclone <url do repositorio>: clona todo o repositório (do link informado). 
+git clone <url>: clona/baixa todo o projeto do repositório (link informado). 
 
 git push: sobe as alterações para o repositório remoto (github)
+
+git pull: Ele puxa as alteraões do repositório.
+
+Erro 403: limpar as credenciais do windows
