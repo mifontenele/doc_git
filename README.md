@@ -9,7 +9,7 @@
 ## O que é o GIT?
     O Git é um software que controla a versão e rastreia as alterações feitas em arquivos ao longo do tempo. Com ele, é possível reverter um determinado arquivo para versões anteriores. Também será possível copiar um determinado arquivo e fazer as alterações nesta cópia antes de mesclar as alterações ao arquivo original.
     
-    ### Curiosidade! O Git não se limita a controlar alterações apenas em arquivos de código-fonte, ou seja, pode ser usado para controlar a versão de qualquer tipo de arquivo, tais como arquivos de textos e até imagens
+    Curiosidade! O Git não se limita a controlar alterações apenas em arquivos de código-fonte, ou seja, pode ser usado para controlar a versão de qualquer tipo de arquivo, tais como arquivos de textos e até imagens
 
 ## O que é o GITHUB?
     É um serviço de hospedagem on-line para repositórios do Git que tem a capacidade de permitir a colaboração de outros desenvolvedores de qualquer local.
