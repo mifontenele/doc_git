@@ -1,4 +1,4 @@
-(Este arquivo contém notas da aula 07, ministrada pelo Prof. Francisco Walison, em 09/06/23, no curso Desenvolvedor Full Stack da Digital College de Fortaleza/CE)
+Este arquivo contém notas da aula 07, ministrada pelo Prof. Francisco Walison (https://github.com/FranciscoWallison) em 09/06/23, no curso Desenvolvedor Full Stack da Digital College de Fortaleza/CE.
 
 # Documentação GIT para Iniciantes
 
