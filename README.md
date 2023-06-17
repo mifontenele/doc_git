@@ -1,6 +1,6 @@
-(Este arquivo contém notas da aula 07, ministrada pelo Prof. Francisco Walison, em 09/06/23, no curso Desenvolvedor Full Stack da Digital College de Fortaleza/CE)
+###### (Este arquivo contém notas da aula 07, ministrada pelo Prof. Francisco Walison, em 09/06/23, no curso Desenvolvedor Full Stack da Digital College de Fortaleza/CE)
 
-## Documentação GIT
+# Documentação GIT
 
 ## Objetivo
     Este será um documento de ajuda para que o iniciante em programação possa entender as diferenças do GIT em relação ao GITHUB e também
@@ -32,46 +32,46 @@
 
 ## Principais Comandos do GIT
 
-## Atribuir nome à sessão ativa:        
+#### Atribuir nome à sessão ativa:        
     git config --global user.name "<seu_nome>"
 
-## Atribuir email à sessão ativa:      
+#### Atribuir email à sessão ativa:      
     git config --global user.email "<seu_email>"
 
-## criar uma nova branch ou ramo:
+#### Criar uma nova branch ou ramo:
     git checkout -b <nome da branch>
         
-##  mudar de branch/ramo:
+####  Mudar de branch/ramo:
     git checkout <nome da branch>
 
-## iniciar o arquivo ".git/" para controlar a pasta:
+#### Iniciar o arquivo ".git/" para controlar a pasta:
     git init: 
 
-## Validar os arquivos modificados dentro do projeto. Em vermelho, ele mostra os arquivos modificados. Em verde, mostra os arquivos que foram adicionados pelo "git add":
+#### Validar os arquivos modificados dentro do projeto. Em vermelho, ele mostra os arquivos modificados. Em verde, mostra os arquivos que foram adicionados pelo "git add":
     git status
     
-## Colocar o arquivo modificado em uma área segura: 
+#### Colocar o arquivo modificado em uma área segura: 
     git add
 
-## Criar uma nova versão do projeto com as referências do criador:
+#### Criar uma nova versão do projeto com as referências do criador:
     git commit -m "<texto_da_modificacao>"
 
-## Clonar/baixar todo o projeto do repositório remoto (link do repositório informado):
+#### Clonar/baixar todo o projeto do repositório remoto (link do repositório informado):
     git clone <url>
 
-## Subir as alterações para o repositório remoto (github):
+#### Subir as alterações para o repositório remoto (github):
     git push
 
-## Puxar as alterações do repositório:
+#### Puxar as alterações do repositório:
     git pull
     
-## Validar os meus comentários e modificações:
+#### Validar os meus comentários e modificações:
     git log
 
-## adicionar o conteúdo da branch atual no contéudo de outra branch:
+#### Adicionar o conteúdo da branch atual no contéudo de outra branch:
     git merge <nome_da_branch>
 
-## Mostrar as alterações feitas:
+#### Mostrar as alterações feitas:
     gitk
 
 ## Deu Erro? O que fazer?
