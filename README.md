@@ -1,4 +1,4 @@
-###### (Este arquivo contém notas da aula 07, ministrada pelo Prof. Francisco Walison (http://github.com/franciscowallison), em 09/06/23, no curso Desenvolvedor Full Stack da Digital College de Fortaleza/CE)
+
 
 # Documentação GIT
 
@@ -91,8 +91,8 @@
     git -v
 
 ## Referência
-    https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/
-    
-    https://readme.so/pt/editor
+    > https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/    
+    > https://readme.so/pt/editor
+    > https://cursos.alura.com.br/forum/topico-erro-remote-origin-already-exists-o-que-fazer-14236
 
-    https://cursos.alura.com.br/forum/topico-erro-remote-origin-already-exists-o-que-fazer-14236
+###### Este arquivo contém notas da aula 07, ministrada pelo Prof. Francisco Walison (http://github.com/franciscowallison), em 09/06/23, no curso Desenvolvedor Full Stack da Digital College de Fortaleza/CE
