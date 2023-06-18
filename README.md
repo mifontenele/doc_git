@@ -18,16 +18,13 @@
     outros desenvolvedores de qualquer local.
 
 ## Pré-Requisitos
-    1. Ter o GIT instalado na máquina. 
-    2. Ter um editor de texto de sua escolha. Como sugestão, poderá baixar o VISUAL STUDIO CODE disponível para 
-    download no endereço https://code.visualstudio.com/download.
-    3. Ter uma conta criada no GITHUB. Download disponível no link https://github.com/.
-    4. Configurar o sistema operacional para mostrar os arquivos ocultos (pasta .git).
+- Ter o GIT instalado na máquina. 
+- Ter um editor de texto de sua escolha. Como sugestão, poderá baixar o [Visual Studio Code](https://code.visualstudio.com/download).
+- Ter uma conta criada no [GitHub](https://github.com/).
+- Configurar o sistema operacional para mostrar os arquivos ocultos (pasta .git).
 
 ## Como instalar o GIT
-    Baixar a versão mais recente do site oficial disponível através do link https://git-scm.com/downloads. 
-    Neste momento tenha atenção para escolher a versão relativa ao seu sistema operacional nas opções 
-    fornecidas.
+- Baixar a versão mais recente do [site oficial](https://git-scm.com/downloads). Neste momento tenha atenção para escolher a versão relativa ao seu sistema operacional nas opções fornecidas.
 
 ## Principais Comandos do GIT
 
@@ -73,24 +70,23 @@
 #### Mostrar as alterações feitas:
     gitk
 
-## Deu Erro? O que fazer?
-        
-    Erro: 403
-    Isto costuma acontecer muito caso o terminal GIT já se encontre ativado por outro usuário. É provavel que os usuários de GIT e GITHUB sejam diferentes. Neste caso, acessar o gerenciador de credenciais do windows e remover o usuário que estiver ativo no git resolerá o problema.
-
-    Erro: Remote origin already exists
-    Isso provavelmente está acontecendo porque você já tinha feito envio para este repositório.Para ter certeza, execute o comando "git remote" e deve aparecer "origin", indicando que o repositório remoto já tinha sido configurado no Github. Neste caso, partir direto pro comando "git push -u origin master" ao inves de usar o "git remote add origin" utilizado na primeira vez.
-
-## Dicas e Curiosidades
-    Toda pasta com "." na frente do nome eh uma pasta oculta. 
-    
-    Caso ainda não esteja familiarizado em digitar a linha de comando no Git, você poderá abrir o Visual Code como editor e abrir o projeto nele primeiro. Feito isto, ao abrir o GIT o terminal já apontará para a linha de comando onde está o seu projeto.
-
-    Para checar a versão do git instalada
+#### Para checar a versão do git instalada
     git -v
 
-## Referência
-    > https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/    
-    > https://readme.so/pt/editor
-    > https://cursos.alura.com.br/forum/topico-erro-remote-origin-already-exists-o-que-fazer-14236
+## Deu Erro? O que fazer?
+- **Erro: 403** - Isto costuma acontecer muito caso o terminal GIT já se encontre ativado por outro usuário. É provavel que os usuários de GIT e GITHUB sejam diferentes.
+  Neste caso, acessar o gerenciador de credenciais do windows e remover o usuário que estiver ativo no git resolerá o problema.
+- **Erro: Remote origin already exists** - Isso provavelmente está acontecendo porque você já tinha feito envio para este repositório.Para ter certeza, execute o comando "git remote" e deve aparecer "origin", indicando que o repositório remoto já tinha sido configurado no Github. Neste caso, partir direto pro comando "git push -u origin master" ao inves de usar o "git remote add origin" utilizado na primeira vez.
+
+## Dicas e Curiosidades
+- Toda pasta com "." na frente do nome eh uma pasta oculta. 
+- Caso ainda não esteja familiarizado em digitar a linha de comando no Git, você poderá abrir o Visual Code como editor e abrir o projeto nele primeiro. Feito isto, ao abrir o GIT o terminal já apontará para a linha de comando onde está o seu projeto.
+
+
+## Referências
+[Tutorial de Git e GitHub para iniciantes](https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/). 
+
+[Templates para arquivos Readme](https://readme.so/pt/editor).
+
+[Resolução do Erro 'remote origin already exits'](https://cursos.alura.com.br/forum/topico-erro-remote-origin-already-exists-o-que-fazer-14236).
 
