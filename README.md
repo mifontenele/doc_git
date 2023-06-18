@@ -1,8 +1,9 @@
 
 
 # Documentação GIT
+###### Este arquivo contém notas da aula 07, ministrada pelo Prof. [Francisco Walison](http://github.com/franciscowallison), em 09/06/23, no curso Desenvolvedor Full Stack da Digital College de Fortaleza/CE
 
-## Objetivo
+## Objetivo.
     Este será um documento de ajuda para que o iniciante em programação possa entender as diferenças do GIT em relação ao GITHUB e também
     utilizar como fonte de consulta sempre que for necessário revisar ou relembrar os comandos mais utilizados do GIT. 
 
@@ -33,8 +34,8 @@
 ## Principais Comandos do GIT
 
 #### Atribuir nome à sessão ativa:        
-`Use git config --global user.name "<seu_nome>" para atribuir'
-
+    git config --global user.name "<seu_nome>"
+    
 #### Atribuir email à sessão ativa:      
     git config --global user.email "<seu_email>"
 
@@ -95,4 +96,3 @@
     > https://readme.so/pt/editor
     > https://cursos.alura.com.br/forum/topico-erro-remote-origin-already-exists-o-que-fazer-14236
 
-###### Este arquivo contém notas da aula 07, ministrada pelo Prof. Francisco Walison (http://github.com/franciscowallison), em 09/06/23, no curso Desenvolvedor Full Stack da Digital College de Fortaleza/CE
