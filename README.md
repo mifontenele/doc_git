@@ -1,11 +1,9 @@
-
-
 # Documentação GIT
 ###### Este arquivo contém notas da aula 07, ministrada pelo Prof. [Francisco Walison](http://github.com/franciscowallison), em 09/06/23, no curso Desenvolvedor Full Stack da Digital College de Fortaleza/CE
-
 ## Objetivo.
     Este será um documento de ajuda para que o iniciante em programação possa entender as diferenças do GIT em relação ao GITHUB e também
     utilizar como fonte de consulta sempre que for necessário revisar ou relembrar os comandos mais utilizados do GIT. 
+![](/git_github.png) 
 
 ## O que é o GIT?
     O Git é um software que controla a versão e rastreia as alterações feitas em arquivos ao longo do tempo. 
