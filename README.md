@@ -1,4 +1,4 @@
-###### (Este arquivo contém notas da aula 07, ministrada pelo Prof. Francisco Walison, em 09/06/23, no curso Desenvolvedor Full Stack da Digital College de Fortaleza/CE)
+###### (Este arquivo contém notas da aula 07, ministrada pelo Prof. Francisco Walison (http://github.com.br/franciscowallison), em 09/06/23, no curso Desenvolvedor Full Stack da Digital College de Fortaleza/CE)
 
 # Documentação GIT
 
@@ -33,7 +33,7 @@
 ## Principais Comandos do GIT
 
 #### Atribuir nome à sessão ativa:        
-    git config --global user.name "<seu_nome>"
+`Use git config --global user.name "<seu_nome>" para atribuir'
 
 #### Atribuir email à sessão ativa:      
     git config --global user.email "<seu_email>"
