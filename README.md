@@ -52,7 +52,7 @@
 #### Criar uma nova versão do projeto com as referências do criador:
     git commit -m "<texto_da_modificacao>"
 
-#### Clonar/baixar todo o projeto do repositório remoto (link do repositório informado):
+#### Clonar/baixar todo o projeto EXCLUSIVAMENTE do SEU repositório remoto informando o link do repositório que onde foi dado o fork e não do projeto original:
     git clone <url>
 
 #### Subir as alterações para o repositório remoto (github):
