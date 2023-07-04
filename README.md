@@ -40,23 +40,32 @@
 ####  Mudar de branch/ramo:
     git checkout <nome da branch>
 
-#### Iniciar o arquivo ".git/" para controlar a pasta:
+#### Inicializa o arquivo ".git/" para controlar a pasta na máquina local que posteriormente subirá para o repositório do Github:
     git init: 
-
-#### Validar os arquivos modificados dentro do projeto. Em vermelho, ele mostra os arquivos modificados. Em verde, mostra os arquivos que foram adicionados pelo "git add":
-    git status
-    
-#### Colocar o arquivo modificado em uma área segura: 
-    git add
-
-#### Criar uma nova versão do projeto com as referências do criador:
-    git commit -m "<texto_da_modificacao>"
 
 #### Clonar/baixar todo o projeto EXCLUSIVAMENTE do SEU repositório remoto informando o link do repositório que onde foi dado o fork e não do projeto original:
     git clone <url>
 
-#### Subir as alterações para o repositório remoto (github):
-    git push
+#### Validar os arquivos modificados dentro do projeto. Em vermelho, ele mostra os arquivos modificados. Em verde, mostra os arquivos que foram adicionados pelo "git add":
+    git status
+    
+#### Colocar o arquivo modificado em uma área segura (O "." depois do comando 'git add' adiciona todos os arquivos em vermelho indicados após o git status): 
+    git add .
+
+#### Criar uma nova versão do projeto com as referências do criador:
+    git commit -m "<texto_da_modificacao>"
+
+#### Alterar o nome da branch principal de master para main (isso é uma boa prática atualmente recomendada)
+    git branch -M "main" 
+
+#### Passar o commit do repositório local (da minha máquina) para um repositório na plataforma do Github (Origin é o nome utilizado para referenciar o nosso repositório. Feito isto, o repositório local estará conectado com o respositório do Github, porém, o commit que damos na máquina não sobe automaticamente para a plataforma...)
+    git remote add origin <link do repositório>
+
+#### Subir, pela primeira vez, as alterações para o repositório remoto (github):
+    git push -u origin <branch que quer subir (main ou develop, por ex)>
+    
+#### Subir, depois da primeira vez (sem o "-u", as alterações para o repositório remoto (github):
+    git push origin <branch que quer subir (main ou develop, por ex)>
 
 #### Puxar as alterações do repositório:
     git pull
