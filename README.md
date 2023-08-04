@@ -46,11 +46,15 @@
 #### Clonar/baixar todo o projeto EXCLUSIVAMENTE do SEU repositório remoto informando o link do repositório que onde foi dado o fork e não do projeto original:
     git clone <url>
 
-#### Validar os arquivos modificados dentro do projeto. Em vermelho, ele mostra os arquivos modificados. Em verde, mostra os arquivos que foram adicionados pelo "git add":
+#### Validar os arquivos modificados dentro do projeto. (Em vermelho, ele mostra os arquivos modificados. Em verde, mostra os arquivos que foram adicionados pelo "git add"):
     git status
     
-#### Colocar o arquivo modificado em uma área segura (O "." depois do comando 'git add' adiciona todos os arquivos em vermelho indicados após o git status): 
+#### Adicionar todos os arquivos modificados na área segura antes do "commit": 
     git add .
+    git add -A
+
+#### Adicionar apenas um arquivo esepcificamente na área segura antes do "commit" 
+    git add <nome do arquivo com a sua extensão>
 
 #### Criar uma nova versão do projeto com as referências do criador:
     git commit -m "<texto_da_modificacao>"
@@ -78,6 +82,9 @@
 
 #### Mostrar as alterações feitas:
     gitk
+
+#### Mostrar exatamente o que você alterou (e não apenas quais arquivos foram alterados):
+    gitdiff
 
 #### Para checar a versão do git instalada
     git -v
