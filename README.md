@@ -34,6 +34,9 @@
 #### Atribuir email à sessão ativa:      
     git config --global user.email "<seu_email>"
 
+#### Logar guardando sempre a senha:      
+    git config --global credential.helper store
+
 #### Criar uma nova branch ou ramo:
     git checkout -b <nome da branch>
         
