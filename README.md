@@ -74,7 +74,7 @@
 #### Subir, depois da primeira vez (sem o "-u", as alterações para o repositório remoto (github):
     git push origin <branch que quer subir (main ou develop, por ex)>
 
-#### Puxar as alterações do repositório:
+#### Puxar as alterações do repositório (quando trabalho no rep remoto e o aconteceram atualizações do time depois disto, antes de retomar o trabalho é necessário atualizar):
     git pull
     
 #### Validar os meus comentários e modificações:
